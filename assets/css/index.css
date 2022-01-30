@@ -1,0 +1,362 @@
+@import url("/assets/css/grid.css");
+
+/*******KEYFRAME ANIMACION TITULO******/
+@-webkit-keyframes tracking-in-contract {
+    0% {
+    letter-spacing: 1em;
+    opacity: 0;
+}
+    40% {
+    opacity: 0.6;
+}
+    100% {
+    letter-spacing: normal;
+    opacity: 1;
+}
+}
+@keyframes tracking-in-contract {
+    0% {
+    letter-spacing: 1em;
+    opacity: 0;
+}
+    40% {
+    opacity: 0.6;
+}
+    100% {
+    letter-spacing: normal;
+    opacity: 1;
+}
+}
+
+/******KEYFRAME ANIMACION LOGO****/
+@keyframes animacionLogo {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+body{
+    height:100%;
+    background-image:url("/imagenes/fondo.jpg");
+    background-size: cover;
+}
+
+/************ NAVBAR************/
+.navbar{
+display: flex;
+flex-flow: row nowrap;
+justify-content:space-around;
+}
+
+.contenedorItemsNav{
+width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#animacionLogo{
+    animation: animacionLogo 1s ease 0s 1 normal forwards;
+}
+/***************TITULO PRINCIPAL************/
+.contenedorTit{
+font-family: 'Roboto', sans-serif;
+color: #5a6829;
+text-shadow: 4px 2px 1px #181717;
+text-align:center;
+font-size: 1.2rem;
+-webkit-animation: tracking-in-contract 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+animation: tracking-in-contract 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+/*************DIV PLANES*******************/
+.contenedorPlan{
+display: flex;
+margin: 1em;
+align-items:center;
+justify-content: center;
+}
+
+#planUno{
+margin: auto;
+position: relative;
+}
+
+#planDos{
+margin: auto;
+position: relative;
+}
+
+#planTres{
+margin: auto;
+position: relative;
+}
+
+.estiloImg{
+border-radius: 1em;
+box-shadow: 5px 5px 22px 1px #181717;
+}
+
+.infoPlan{
+position: absolute;
+height: 400px;
+width: 500px;
+background-color:#4d5b1ca9;
+border-radius: 0.7em;
+}
+
+#divInfoPlan1{
+position: absolute;
+font-family: 'Roboto', sans-serif;
+font-size:x-large;
+}
+#divInfoPlan2{
+position: absolute;
+font-family: 'Roboto', sans-serif;
+font-size:x-large;
+}
+#divInfoPlan3{
+position: absolute;
+font-family: 'Roboto', sans-serif;
+font-size:x-large;
+}
+
+.titPlan{
+padding: 2% 18%;
+color:khaki;
+}
+/***********FORMA DE PAGO (PRICING)********/
+.formaDePago{
+display: flex;
+margin: 1em;
+align-items:center;
+justify-content:space-between;
+
+}
+
+.pagoPlan1 {
+width: 30%; 
+height: 25em;
+background-color:#485810c5 ;
+border-radius: 20px;
+box-shadow: 3px 3px 17px 2px #242c06;
+}
+
+.pagoPlan2{
+
+width: 30%; 
+height: 25em;
+background-color:#485810c5 ;
+border-radius: 20px;
+box-shadow: 3px 3px 17px 2px #242c06;
+}
+
+.pagoPlan3{
+width: 30%; 
+height: 25em;
+background-color:#485810c5 ;
+border-radius: 20px;
+box-shadow: 3px 3px 17px 2px #242c06;
+}
+            
+/*************LISTADO DE COMIDAS*******************/
+.listadoComida{
+display: flex;
+margin: 1em;
+justify-content:space-around;
+}
+
+.botonEleccionPlanes{
+border-top: 1px solid #d7debd;
+background: #4D5B1C;
+background: -webkit-gradient(linear, left top, left bottom, from(#a8b577), to(#5a6829));
+background: -webkit-linear-gradient(top, #a8b577, #5a6829);
+background: -moz-linear-gradient(top, #a8b577, #5a6829);
+background: -ms-linear-gradient(top, #a8b577, #5a6829);
+background: -o-linear-gradient(top, #a8b577, #5a6829);
+padding: 8.5px 17px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+box-shadow: rgba(0,0,0,1) 0 1px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: white;
+font-size: 17px;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+vertical-align: middle;
+}
+.botonEleccionPlanes:hover {
+border-top-color: #39450c;
+background: #39450c;
+color: #ccc;
+}
+.botonEleccionPlanes:active {
+border-top-color: #4a5912;
+background: #4a5912;
+}
+
+
+/*****************DIV RESULTADO CALORIAS***********/
+.contenedorResultado{
+display: flex;
+margin: 1em;
+width: 100vw;
+justify-content:space-around;
+height: 9em;
+}
+
+#resultado1{
+color: #39450c;
+font-family: 'Roboto', sans-serif;
+font-size: 1.5em;
+
+}
+
+#resultado2{
+color: #39450c;
+font-family: 'Roboto', sans-serif;
+font-size: 1.5em;
+
+}
+#resultado3{
+color: #39450c;
+font-family: 'Roboto', sans-serif;
+font-size: 1.5em;
+}
+
+
+#button-confirm{
+width: 40%;
+height: 2rem;
+border-radius: 10%;
+border-top: 1px solid #d7debd;
+background: #5a6829;
+background: -webkit-gradient(linear, left top, left bottom, from(#a8b577), to(#5a6829));
+background: -webkit-linear-gradient(top, #a8b577, #5a6829);
+background: -moz-linear-gradient(top, #a8b577, #5a6829);
+background: -ms-linear-gradient(top, #a8b577, #5a6829);
+background: -o-linear-gradient(top, #a8b577, #5a6829);
+padding: 7.5px 15px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+box-shadow: rgba(0,0,0,1) 0 1px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: white;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+vertical-align: middle;
+}
+#button-confirm:hover {
+    border-top-color: #39450c;
+    background: #39450c;
+    color: #ccc;
+}
+#button-confirm:active {
+    border-top-color: #4a5912;
+    background: #4a5912;
+}
+
+
+footer{
+    background-color: #39450c;
+    height: 3rem;
+    text-align: center;
+    color:wheat ;
+    font-size: larger;
+}
+/****************CARD PRICING********************************/
+
+#valorPlan1{
+margin-left: 5%;
+font-family: 'Roboto', sans-serif;
+font-size: large;
+}
+
+#valorPlan2{
+margin-left: 5%;
+font-family: 'Roboto', sans-serif;
+font-size: large;
+}
+#valorPlan3{
+margin-left: 5%;
+font-family: 'Roboto', sans-serif;
+font-size: large;
+}
+.titdescripcion{
+color: #1e220e;
+font-size: x-large;
+margin-left: 5em;
+}
+div.pagoPlan1{
+font-size: larger;
+}
+
+div.pagoPlan2{
+font-size: larger;
+}
+
+div.pagoPlan3{
+font-size: larger;
+}
+
+.confirmarPlan{
+justify-self:center;
+align-self: center;
+}
+/***************************REGISTRO**************************************/
+
+.contenedorTit1{
+font-family: 'Roboto', sans-serif;
+color: #5a6829;
+text-shadow: 4px 2px 1px #181717;
+text-align:center;
+font-size: 2rem;
+margin-left: 40rem;
+margin-top: 10rem;
+-webkit-animation: tracking-in-contract 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+animation: tracking-in-contract 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.contenedorRegistro{
+width: 20em;
+height: 20em;
+border-radius: 5%;
+background-color: wheat;
+margin-top: 70%;
+margin-left: -60%;
+   
+}
+
+.inputFormulario{
+    margin-left:10%;
+    margin-top: 2.5%;
+    height: 10%;
+    width: 80%;
+    border-radius: 0.3em;
+}
+button{
+    margin: 1.5em 8em ;
+}
+
+.confirmacionFinal{
+display: flex;
+align-content: center;
+justify-content: center;
+color: #39450c;
+font-family: 'Roboto', sans-serif;
+font-size:1.2em;
+border: 1px solid #39450c;
+border-radius: 10px;
+}

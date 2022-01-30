@@ -1,0 +1,75 @@
+
+[
+{   
+"alimento":"Wafles con palta", 
+"calorias":125, 
+"cantidades":"porción",
+"img": "imagenes/wafflesConPalta200x150.jpg"
+},
+{
+"alimento":"Huevos revueltos", 
+"calorias":148, 
+"cantidades":"porción",
+"img": "imagenes/huevosRevueltos200x150.jpg"
+},
+
+{
+"alimento":"Batido proteico", 
+"calorias":250, 
+"cantidades":"vaso",
+"img": "imagenes/batidosProteicos200x150.jpg"
+},
+
+{
+"alimento":"Fiambre", 
+"calorias":150, 
+"cantidades":"rodajas",
+"img": "imagenes/fiambres200x150.jpg"
+},
+
+{
+"alimento":"Salmón a la plancha", 
+"calorias":184, 
+"cantidades":"porción",
+"img": "imagenes/salmonALaPlancha200x150.jpg"
+},
+
+{
+"alimento":"Snacks proteicos", 
+"calorias":450, 
+"cantidades":"vaso",
+"img": "imagenes/snacksProteicos200x150.jpg"
+},
+
+{
+"alimento":"Tostada pan integral", 
+"calorias":68, 
+"cantidades":"porción",
+"img": "imagenes/tostadasIntegrales200x150.jpg"
+},
+
+{
+"alimento":"Crema de Palta", 
+"calorias":116, 
+"cantidades":"cucharada",
+"img": "imagenes/cremaDePalta200x150.jpg"
+},
+
+{
+"alimento":"Ensalada de atún y huevo", 
+"calorias":499, 
+"cantidades":"porción",
+"img": "imagenes/EnsaladaAtunYHuevo200x150.jpg"
+},
+
+{
+"alimento":"1/4 de pechuga a la plancha", 
+"calorias":302, 
+"cantidades":"porción",
+"img": "imagenes/polloALaPlancha200x150.jpg"
+}
+
+]
+
+
+

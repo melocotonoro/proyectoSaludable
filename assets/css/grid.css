@@ -1,0 +1,48 @@
+body{
+    display:grid;
+grid-template-areas: 
+"nav nav nav"
+"tituloPrinc tituloPrinc tituloPrinc"
+"plan plan plan"
+"contenido contenido contenido"
+"preciosplan preciosplan preciosplan"
+"formaDePago formaDePago formaDePago"
+"confirm confirm confirm"
+"foot foot foot";
+row-gap: 2%;
+}
+
+.contendorNav{
+grid-area: nav;
+}
+
+.contenedorTit{
+grid-area: tituloPrinc;
+}
+
+.card{
+grid-area: plan;
+
+}
+
+.card2{
+grid-area: contenido;
+
+}
+
+.contendorResultado{
+grid-area: preciosplan; 
+
+}
+
+.formaDePago{
+grid-area: formaDePago; 
+}
+.confirmacionFinal{
+    grid-area: confirm
+}
+
+footer{
+grid-area:foot ;
+
+}

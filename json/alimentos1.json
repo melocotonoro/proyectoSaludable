@@ -1,0 +1,113 @@
+
+[
+{   
+"alimento":"Galleta glutén", 
+"calorias":30, 
+"cantidades":"porción",
+"img": "imagenes/galletasGluten200x150.jpg"
+},
+
+{
+"alimento":"Queso crema light", 
+"calorias":33, 
+"cantidades":"cucharada",
+"img": "imagenes/quesoCrema200x150.jpg"
+},
+
+{
+"alimento":"Te", 
+"calorias":36, 
+"cantidades":"taza",
+"img": "imagenes/te200x150.jpg"
+},
+
+{
+"alimento":"Banana", 
+"calorias":89, 
+"cantidades":"cantidad",
+"img": "imagenes/bananas200x150.jpg"
+},
+
+{
+"alimento":"Manzana", 
+"calorias":52, 
+"cantidades":"cantidad",
+"img": "imagenes/manzanas200x150.jpg"
+},
+
+{
+"alimento":"Naranja", 
+"calorias":53, 
+"cantidades":"cantidad",
+"img": "imagenes/naranja200x150.jpg"
+},
+
+{
+"alimento":"Ensalada de lechuga,Tomate y Zanahoria", 
+"cantidades":"porción",
+"calorias":275, 
+"img": "imagenes/ensaladaLechugaYTomate200x150.jpg"
+},
+
+{
+"alimento":"Filete de merluza", 
+"calorias":98, 
+"cantidades":"porción",
+"img": "imagenes/fileteMerluza200x150.jpg"
+},
+
+{
+"alimento":"Jugo de naranja", 
+"calorias":60, 
+"cantidades":"vaso",
+"img": "imagenes/jugoDeNaranjas200x150.jpg"
+},
+
+{
+"alimento":"Gaseosa Coca light", 
+"calorias":1, 
+"cantidades":"vaso",
+"img": "imagenes/VasoDeCocaLight200x150.jpg"
+},
+
+{
+"alimento":"Panqueque de avena", 
+"calorias":86, 
+"cantidades":"porción",
+"img": "imagenes/panquequeAvena200x150.jpg"
+},
+
+{
+"alimento":"Yogurt bebible light", 
+"calorias":117, 
+"cantidades":"vaso",
+"img": "imagenes/yogurtLigth200x150.jpg"
+},
+
+{
+"alimento":"Arroz Blanco", 
+"calorias":130, 
+"cantidades":"porción",
+"img": "imagenes/arrozBlanco200x150.jpg"
+},
+
+{
+"alimento":"Lentejas cocidas", 
+"calorias":116, 
+"cantidades":"porción",
+"img": "imagenes/lentejasCocidas200x150.jpg"
+}
+
+]
+
+
+
+
+
+
+
+
+
+
+
+

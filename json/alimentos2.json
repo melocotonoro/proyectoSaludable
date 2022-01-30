@@ -1,0 +1,70 @@
+
+[
+
+{   
+"alimento":"Wafles con miel", 
+"calorias":112, 
+"cantidades":"porción",
+"img": "imagenes/wafflesConMiel200x150.jpg"
+},
+
+{
+"alimento":"Wafles con palta", 
+"calorias":125, 
+"cantidades":"porción",
+"img": "imagenes/wafflesConPalta200x150.jpg"
+},
+
+{
+"alimento":"Huevos revueltos", 
+"calorias":148, 
+"cantidades":"porción",
+"img": "imagenes/huevosRevueltos200x150.jpg"
+},
+
+{
+"alimento":"Batido proteico", 
+"calorias":250, 
+"cantidades":"vaso",
+"img": "imagenes/batidosProteicos200x150.jpg"
+},
+
+{
+"alimento":"Fiambre", 
+"calorias":150, 
+"cantidades":"rodajas",
+"img": "imagenes/fiambres200x150.jpg"
+},
+
+{
+"alimento":"Pastas con salsa roja con carne", 
+"calorias":329, 
+"cantidades":"porción",
+"img": "imagenes/pastasConSalsaConCarne200x150.jpg"
+},
+
+{
+"alimento":"Tostada pan integral", 
+"calorias":68, 
+"cantidades":"porción",
+"img": "imagenes/tostadasIntegrales200x150.jpg"
+},
+
+{
+"alimento":"Ensalada de palta y huevos", 
+"calorias":360, 
+"cantidades":"porción",
+"img": "imagenes/ensaladaPaltayHuevos200x150.jpg"
+},
+
+{
+"alimento":"Carne roja", 
+"calorias":288, 
+"cantidades":"porción",
+"img": "imagenes/carnesRojas200x150.jpg"
+}
+
+]
+
+
+
